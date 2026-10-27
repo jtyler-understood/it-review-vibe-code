@@ -1,0 +1,19 @@
+{
+  "name": "weekly-digest",
+  "version": "1.0.0",
+  "description": "Weekly team digest from Jira and Google Calendar, posted to Slack",
+  "main": "src/index.js",
+  "author": "Sam Builder",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "googleapis": "^140.0.0",
+    "summarize-it-client": "^0.3.1"
+  }
+}

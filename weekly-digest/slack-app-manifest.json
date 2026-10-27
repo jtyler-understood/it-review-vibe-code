@@ -1,0 +1,28 @@
+{
+  "display_information": {
+    "name": "Weekly Digest Bot",
+    "description": "Posts our weekly team digest"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "digest-bot",
+      "always_online": true
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "chat:write",
+        "chat:write.public",
+        "channels:history",
+        "users:read",
+        "users:read.email",
+        "files:read"
+      ]
+    }
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false
+  }
+}

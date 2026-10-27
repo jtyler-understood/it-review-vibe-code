@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "weekly-digest-sam",
+  "scope": "sam-builder-personal",
+  "builds": [{ "src": "src/index.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "src/index.js" }],
+  "crons": [{ "path": "/api/digest", "schedule": "0 13 * * 5" }]
+}
